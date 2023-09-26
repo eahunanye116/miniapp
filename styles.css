@@ -1,0 +1,103 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  background-image: url(Background.jpg);
+  background-size: cover;
+  font-family: sans-serif;
+}
+.menuBar{
+  background-color: rgb(16, 8, 94);
+}
+.menuBar ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  color: #fff;
+}
+.menuBar ul li{
+  margin-left: 13%;
+  padding: 1%;
+  font-size: 12px;
+  font-weight: bold;
+}
+.menuBar ul li a{
+  color: #fff;
+  text-decoration: none;
+}
+.subMenu{
+  display: none;
+}
+.menuBar ul li:hover .subMenu{
+  display: block;
+  position: absolute;
+}
+.menuBar ul li:hover .subMenu ul{
+display: block;
+margin-bottom: 20px;
+margin: -15px;
+}
+.menuBar ul li:hover .subMenu ul li{
+  padding: 5px;
+  margin-top: 20px;
+}
+.signUp{
+  background-image: url(images_\(3\)[1].jpg);
+  background-repeat: no-repeat;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  max-inline-size: 400px;
+  color: #fff;
+  margin: auto;
+  margin-top: 10% ;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+.signUp h2{
+  padding-top: 20px
+}
+.signUp p{
+  padding-top: 30px;
+  margin-left: 7%;
+}
+.first{
+  padding: 5px;
+  padding-left: 2%;
+  margin-left: 10px;
+  width: 70%;
+  border: none;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+#another{
+  margin-bottom: 25px;
+}
+.link{
+  color: #fff;
+  text-decoration: none;
+}
+.submit{
+  color: white;
+  background-color: rgb(16, 8, 94);
+  padding: 22px;
+  border-radius: 100px;
+  border-color: blue;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
