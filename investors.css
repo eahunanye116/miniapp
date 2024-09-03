@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.invsthed {
+  font-family: "Roboto Condensed", sans-serif;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.investor-div {
+  font-family: "Roboto Condensed", sans-serif;
+}
+.tablefonts {
+  font-size: 15px;
+}
+/* General Table Styling for Mobile */
+.investor-div {
+  margin: 10px;
+  border: 1px solid #dee2e6;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px; /* Smaller font size for mobile */
+}
+
+.table th,
+.table td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #dee2e6;
+}
+
+.table th {
+  background-color: #1a1a2e;
+  color: white;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #f2f2f2;
+}
+
+.table-bordered {
+  border: 1px solid #dee2e6;
+}
+
+.btn-sm {
+  padding: 5px 10px;
+  font-size: 0.875rem;
+  text-decoration: none;
+  color: white;
+  background-color: rgb(161, 3, 3);
+}
+
+
+/* Form Container */
+.investment-form {
+  max-width: 400px;
+  margin: 0 auto;
+  margin-bottom: 8px;
+  padding: 20px;
+  background-color: #1a1a2e; /* Secondary background color */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.header-one{
+  font-family: "Roboto Condensed", sans-serif;
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 1.5%;
+}
+
+/* Form Group */
+.form-group {
+  margin-bottom: 15px;
+}
+
+/* Form Label */
+.form-label {
+  display: block;
+  margin-bottom: 5px;
+  color: #eaeaea; /* Light gray text */
+  font-weight: bold;
+}
+
+/* Form Control (Input Fields) */
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #0f3460; /* Accent color */
+  border-radius: 4px;
+  background-color: #1a1a2e; /* Dark background */
+  color: #eaeaea; /* Light gray text */
+}
+
+/* Button */
+.btn-success {
+  background-color: rgb(161, 3, 3); /* Highlight color */
+  color: #ffffff; /* White text */
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+}
+
+.btn-success:hover {
+  background-color: #e94560; /* Hover background color */
+}
+
+.create-investor-btn{
+  padding: 6px 10px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 0.875rem;
+  color: white;
+  background-color: #1a1a2e;
+  border: 1px solid rgb(161, 3, 3);
+  margin-left: 3.2%;
+  
+}
+
